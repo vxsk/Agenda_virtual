@@ -17,7 +17,7 @@ function adicionaLinha(){
     const inputTelefoneContato = document.getElementById('telefone-contato');
 
     if (contatos.includes(inputNomeContato.value)){
-        alert(`Atenção! ${inputNomeContato} já existe na lista de contatos! `);
+        alert(`Atenção! ${inputNomeContato.value} já existe na lista de contatos! `);
     }else {
         contatos.push(inputNomeContato.value);
         telefones.push(inputTelefoneContato);
